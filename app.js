@@ -203,7 +203,7 @@ Gene expression via qPCR
             this.saveConversation();
         } catch (error) {
             console.error('Error:', error);
-            this.showError('An error occurred while fetching the response');
+            this.showError('An error occurred. Please wait before sending your message.');
         }
 
         this.setLoading(false);
